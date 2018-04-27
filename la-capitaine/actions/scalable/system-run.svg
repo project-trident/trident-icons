@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
- <defs id="defs3051">
-   <style type="text/css" id="current-color-scheme">
-     .ColorScheme-Text {
-       color:#4d4d4d;
-     }
-     </style>
- </defs>
-   <path
-      style="fill:currentColor;fill-opacity:1;stroke:none"
-      d="m3.5674259 4.9263052c-.3147687 0-.5674259.2541362-.5674259.5689049v10.9358849c0 .314776.2526572.568905.5674259.568905h14.8651481c.314769 0 .567426-.254129.567426-.568905v-10.9358849c0-.3147687-.252657-.5689049-.567426-.5689049zm5.5460593 3.7730298 3.7730298 2.263818-3.7730298 2.263817z"
-      class="ColorScheme-Text" />
-</svg>
+<svg height="48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientTransform="matrix(1.0523327 0 0 1.0276135 -21.151387 -14.039869)" gradientUnits="userSpaceOnUse" x1="409.57144" x2="409.57144" y1="542.79797" y2="507.798"><stop offset="0" stop-color="#42a603"/><stop offset="1" stop-color="#78da06"/></linearGradient><g transform="matrix(1.5106785 0 0 1.5106785 -581.13465 -779.3758)"><rect fill="url(#a)" height="34.938858" ry="1.644182" transform="matrix(.65762761 0 0 .65762761 131.732138753263 186.379333369653)" width="46.302639" x="385.65039" y="507.78021"/><path d="m397.22143 526.798v10l7.5-5z" fill="#fff" fill-opacity=".85" fill-rule="evenodd"/></g></svg>
