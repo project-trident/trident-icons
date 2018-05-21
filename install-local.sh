@@ -30,7 +30,7 @@ if [ -z "${install_dir}" ] ; then
   install_dir="$HOME/.local/share/icons"
 fi
 # Start installing the icon themes
-echo "Installing Icon Themes to: ${install_dir}"
+echo "Copying Icon Themes to: ${install_dir}"
 if [ ! -d "${install_dir}" ] ; then
   #Create the install dir first
   mkdir -p "${install_dir}"

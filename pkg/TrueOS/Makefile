@@ -17,7 +17,7 @@ GH_TAGNAME=	%%GHTAG%%
 NO_BUILD=	yes
 
 do-install:
-	${MKDIR} ${STAGEDIR}/share/icons
-	./install-local.sh ${STAGEDIR}/share/icons
+	${MKDIR} ${STAGEDIR}/usr/local/share/icons
+	cd ${WRKSRC} && ${WRKSRC}/install-local.sh ${STAGEDIR}/usr/local/share/icons
 
 .include <bsd.port.mk>
