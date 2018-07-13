@@ -3,7 +3,7 @@
 #  INPUTS: $1: path to installation directory (optional - only use when preparing to make a package)
 
 install_dir="$1"
-icon_themes="la-capitaine la-capitaine-dark"
+icon_themes="le-trident le-trident-dark"
 
 #Determine the installation dir
 # XDG Environment Settings
