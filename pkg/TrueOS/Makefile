@@ -19,5 +19,10 @@ NO_BUILD=	yes
 do-install:
 	${MKDIR} ${STAGEDIR}/usr/local/share/icons
 	cd ${WRKSRC} && ${WRKSRC}/install-local.sh ${STAGEDIR}/usr/local/share/icons
+	(cd ${STAGEDIR}${PREFIX}/; ${FIND} . -type f \
+		| ${SED} -e 's,^\./,,g' \
+		| ${AWK} '{print length, $$0}' | ${SORT} -rn \
+		| cut -d " " -f 2- \
+		| ${AWK} '{print $$0 }' >> ${TMPPLIST})
 
 .include <bsd.port.mk>
