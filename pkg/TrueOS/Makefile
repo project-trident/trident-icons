@@ -19,7 +19,7 @@ NO_BUILD=	yes
 do-install:
 	${MKDIR} ${STAGEDIR}/usr/local/share/icons
 	cd ${WRKSRC} && ${WRKSRC}/install-local.sh ${STAGEDIR}/usr/local/share/icons
-	(cd ${STAGEDIR}/; ${FIND} . \
+	(cd ${STAGEDIR}/; ${FIND} . -not -type d \
 		| ${SED} -e 's,^\./,/,g' \
 		| ${AWK} '{print length, $$0}' | ${SORT} -rn \
 		| cut -d " " -f 2- \
