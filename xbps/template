@@ -1,15 +1,13 @@
 pkgname=trident-icons
 version=2019.10.12
 revision=1
-build_style=fetch
 short_desc="Icon themes from Project Trident"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="MIT"
 homepage="https://github.com/project-trident/trident-icons"
 distfiles="https://github.com/project-trident/trident-icons/archive/v${version}.tar.gz"
 checksum="34a5a3fb9e2ead18c0a9532516b2551c9280378904e812a0481fa4305b39785e"
-create_wrksrc=true
 
 do_install(){
-  ${wrksrc}/${pkgname}-${version}/install-local.sh "${DESTDIR}/share/icons"
+  ./install-local.sh "${DESTDIR}/share/icons"
 }
