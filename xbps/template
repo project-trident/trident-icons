@@ -1,7 +1,7 @@
 pkgname=trident-icons
 version=2019.10.12
 revision=1
-build-style=fetch
+build_style=fetch
 short_desc="Icon themes from Project Trident"
 maintainer="Ken Moore <ken@project-trident.org>"
 license="MIT"
