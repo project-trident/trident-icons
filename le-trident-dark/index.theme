@@ -1,7 +1,6 @@
 [Icon Theme]
 Name=Le Trident (Dark)
-Comment=Le Trident is an icon pack inspired by macOS and Google Material Design - a beautiful hybrid between the two most popular design specifications
-to date. Le Trident is based on La Capitaine 
+Comment=Le Trident is an icon pack inspired by macOS and Google Material Design - a beautiful hybrid between the two most popular design specifications to date. Le Trident is based on La Capitaine 
 Inherits=hicolor
 Directories=actions/symbolic,actions/scalable,animations/scalable,apps/scalable,apps/symbolic,devices/symbolic,devices/scalable,emblems/scalable,emblems/symbolic,emotes/scalable,emotes/symbolic,mimetypes/scalable,mimetypes/symbolic,places/scalable,places/symbolic,panel/scalable,status/scalable,status/symbolic
 
